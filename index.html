@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Portfolio : MADHUR</title>
+	
+    <!-- BOOTSTRAP CSS-->	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   
+   <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+   
+    <!-- CUSTOM CSS -->
+	<link rel="stylesheet" href="css/style.css">
+   
+      <!-- FONTS PACKAGE  -->
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+	
+	
+    <!-- for page animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+	
+	
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+<script>
+
+function darkmode()
+{
+	document.getElementById("darkmode").style.display="none";
+	document.getElementById("lightmode").style.display="block";
+
+}
+function lightmode()
+{
+	document.getElementById("darkmode").style.display="block";
+	document.getElementById("lightmode").style.display="none";
+}
+
+</script>
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-transparent py-3 sticky-top"
+    style="background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px);">
+    <div class="container">
+        <a href="#" class="navbar-brand fw-bold text-white">MADHUR</a>
+        <button class="navbar-toggler" style="background-color:black;" type="button" data-bs-toggle="collapse" data-bs-target="#mynav"
+            aria-controls="mynav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="mynav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="#home" class="nav-link text-white">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link text-white">About</a></li>
+                <li class="nav-item"><a href="#project" class="nav-link text-white">Projects</a></li>
+                <li class="nav-item"><a href="#Education" class="nav-link text-white">Education</a></li>
+                <li class="nav-item"><a href="#Contact" class="nav-link text-white">Contact</a></li>
+				<button class="ms-4 btn btn-dark " id="darkmode" onclick="darkmode()">🌙</button>
+				<button class="ms-4 btn btn-light " id="lightmode" onclick="lightmode()">☀️</button>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="herobg" style="">
+    <a name="home"></a>
+    <div class="container py-5">
+        <div class="row align-items-center mt-5">
+            <!-- Left Column - Text -->
+            <div class="col-sm-8 text-center text-sm-start mb-4 mb-sm-0">
+                <p class="h1 fw-bold"> 👋 HEY</p>
+                <p class="h2">I'm <span class="text-primary">MADHUR GOYAL</span></p>
+                <p class="h4 text-muted mb-3">
+                    I'm a <span id="typed-text"></span>
+                </p>
+
+
+                <p class="text-secondary">I build responsive and dynamic websites using HTML, CSS, JavaScript, Bootstrap
+                    & PHP.</p>
+                <a href="#about" class="btn btn-primary btn-lg mt-3 px-4">ABOUT ME</a>
+            </div>
+
+            <!-- Right Column - Image -->
+            <div class="col-sm-4 text-center">
+
+
+                <div class="image-hover-container mx-auto img-fluid">
+                    <img src="images/img.webp" alt="Madhur's Image" class="img-main">
+                    <img src="images/img2.jpg" alt="Alternate Image" class="img-hover">
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="d-none d-md-flex flex-column position-fixed" style="top: 50%; left: 10px;">
+
+
+        <ul class="icons nav flex-column">
+            <li class="nav-item "><a class="nav-link"
+                    style="background-color:#5500ff;color:white; border:1px solid black; border-radius:45px; font-size:20px;"
+                    href=""><i class="fab fa-linkedin"></i></a></li>
+            <li class="nav-item mt-4"><a class="nav-link"
+                    style="background-color:#5500ff;color:white; border:1px solid black; border-radius:45px; font-size:20px;"
+                    href="https://github.com/Madhoorgoyal/" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li class="nav-item mt-4"><a class="nav-link"
+                    style="background-color:#5500ff;color:white; border:1px solid black; border-radius:45px; font-size:20px;"
+                    href="https://twitter.com/@MadhurG54915884" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li class="nav-item mt-4"><a class="nav-link"
+                    style="background-color:#5500ff;color:white; border:1px solid black; border-radius:45px; font-size:20px;"
+                    href="https://www.instagram.com/madhurgoyal2403" target="_blank"><i
+                        class="fab fa-instagram"></i></a></li>
+        </ul>
+    </div>
+
+
+<br><br><a name="about"></a><br><br>
+
+
+<div class="container mt-5" >
+    <p class="h1 text-center" data-aos="fade-down" data-aos-duration="2500">About me </p>
+    <div class="row align-items-center">
+        <div class="col-sm-5">
+
+            <div class="card1 card mx-auto m-5 p-3 shadow-lg"
+                style="width: 22rem; border-radius: 20px; overflow: hidden;" >
+                <img src="images/img2.jpg" class="card-img-top rounded img-fluid" alt="Image">
+
+                <div class="card-body text-center">
+                    <h5 class="card-title fw-bold">Creative Web Developer</h5>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="col-sm-7 text-center text-lg-start" data-aos="fade-left" data-aos-duration="2500">
+            <p class="h1 fw-bold mb-3 text-uppercase text-primary">Madhur Goyal</p>
+            <p class="h3 text-dark mb-4">🚀 Web Developer</p>
+
+            <p class="text-dark fs-6">
+                🎓 BCA Graduate | 💻 Passionate about Web Development & Programming.<br>
+                Always eager to learn, grow, and innovate in the tech world.<br>
+                <em>"Code. Learn. Build. Repeat."</em><br>
+                I focus on creating sleek, functional websites & apps that blend creativity with usability.
+            </p>
+
+            <a href="resume.pdf" target="_blank" class="btn btn-outline-dark btn-lg mt-3 px-4">
+                <i class="fa-solid fa-file"></i> Resume
+            </a>
+        </div>
+
+    </div>
+</div>
+
+
+<br><br><br>
+<div class="container mt-5 p-4">
+    <p class="h2 text-center me-5">Technologies</p>
+    <div class="row mt-5" data-aos="fade-down" data-aos-duration="2500">
+        <div class="col-6 col-md-3 mb-4">
+
+            <div class="text-center p-3"
+                style="background-color:rgb(252, 236, 236); border-radius: 100px; width:150px;"><img class="img-fluid "
+                    src="images/html.webp">
+            </div>
+            <p class="mt-3 fs-5" style="margin-left: 50px;"> HTML</p>
+        </div>
+
+       <div class="col-6 col-md-3 mb-4">
+
+            <div class="text-center  p-3"
+                style="background-color:rgb(225, 225, 241); border-radius: 100px; width:150px;"><img class="img-fluid "
+                    src="images/css3.webp">
+            </div>
+            <p class="mt-3 fs-5" style="margin-left: 65px;"> CSS</p>
+
+
+        </div>
+
+       <div class="col-6 col-md-3 mb-4">
+
+            <div class="text-center  p-3 "
+                style="background-color:rgb(244, 242, 198); border-radius: 100px; width:150px;"><img class="img-fluid "
+                    src="images/js.webp">
+            </div>
+            <p class="mt-3 fs-5" style="margin-left: 30px;"> JAVASCRIPT</p>
+        </div>
+
+        <div class="col-6 col-md-3 mb-4">
+
+            <div class="text-center  p-3 "
+                style="background-color:rgb(218, 244, 247); border-radius: 100px; width:150px;"><img class="img-fluid "
+                    src="images/bootstrap.webp">
+            </div>
+            <p class="mt-3 fs-5" style="margin-left: 30px;"> BOOTSTRAP</p>
+        </div>
+    </div>
+    <div class="row mt-5" data-aos="fade-up" data-aos-duration="1500">
+
+
+
+       <div class="col-6 col-md-3 mb-4">
+
+            <div class="text-center p-3"
+                style="background-color:rgb(252, 236, 236); border-radius: 100px; width:150px;"><img class="img-fluid "
+                    src="images/php.webp">
+            </div>
+            <p class="mt-3 fs-5" style="margin-left: 50px;"> PHP </p>
+
+        </div>
+       <div class="col-6 col-md-3 mb-4">
+
+            <div class="text-center p-3"
+                style="background-color:rgb(252, 236, 236); border-radius: 100px; width:150px;"><img class="img-fluid "
+                    src="images/java.png">
+            </div>
+            <p class="mt-3 fs-5" style="margin-left: 50px;"> JAVA</p>
+        </div>
+       <div class="col-6 col-md-3 mb-4">
+
+            <div class="text-center p-3"
+                style="background-color:rgb(252, 236, 236); border-radius: 100px; width:150px;"><img class="img-fluid "
+                    src="images/c.png">
+            </div>
+            <p class="mt-3 fs-5" style="margin-left: 75px;"> C</p>
+
+        </div>
+      <div class="col-6 col-md-3 mb-4">
+
+            <div class="text-center p-3"
+                style="background-color:rgb(252, 236, 236); border-radius: 100px; width:150px;"><img class="img-fluid "
+                    src="images/cpp.png">
+            </div>
+
+            <p class="mt-3 fs-5" style="margin-left: 60px;"> C++</p>
+        </div>
+    </div>
+</div>
+
+<br><br><br>
+
+<a name="project"></a>
+<div class="container mt-5 p-4">
+    <p class="h2 text-center" data-aos="fade-down" data-aos-duration="2500">PROJECTS</p>
+
+    <div class="row">
+       
+		<div class="col-12 col-md-6 mb-4" data-aos="fade-right" data-aos-duration="2500">
+
+            <div class="card m-5 p-4 shadow-lg bloodproject"
+                style="">
+
+                <!-- Image with overlay -->
+                <div class="image-container">
+                    <img src="images/blood.png" alt="Image" class="img-fluid">
+                    <div class="overlay text-center">
+                        <a href="https://www.madhur2003.rf.gd/" target="_blank" style="margin-top:100px" class="btn"><i
+                                class="fa-solid fa-arrow-up-right-from-square websiteicon"
+                                style=""></i></a>
+                        <a href="https://github.com/Madhoorgoyal/blood_donationss/" target="_blank"
+                            style="margin-top:100px" class="btn bt-lg"><i class="fa-brands fa-square-github githubicon"
+                                style=""></i></a>
+
+                    </div>
+                </div>
+
+                <!-- Card Body -->
+                <div class="card-body">
+
+                    <h5 class="card-title fw-bold">BLOOD DONATION</h5>
+
+                    <p class="text-secondary fw-italic fs-6"> Technologies : html,css,js,php and mysql </p>
+                </div>
+
+            </div>
+        </div>
+       <div class="col-12 col-md-6 mb-4" data-aos="fade-left" data-aos-duration="2500">
+
+
+            <div class="card mx-auto m-5 p-4 shadow-lg whatsappproject"
+                style="">
+
+                <!-- Image with overlay -->
+                <div class="image-container">
+                    <img src="images/WHATSAPP.png" alt="Image" class="img-fluid" style="object-fit:contain; ">
+                    <div class="overlay text-center">
+                        <a href="https://www.whatsapp24.rf.gd/" target="_blank" style="margin-top:100px" class="btn"><i
+                                class="fa-solid fa-arrow-up-right-from-square websiteicon"
+                                style=""></i></a>
+                        <a href="https://github.com/Madhoorgoyal/WHATSAPP/" target="_blank" style="margin-top:100px"
+                            class="btn bt-lg"><i class="fa-brands fa-square-github githubicon"
+                                style=""></i></a>
+
+                    </div>
+                </div>
+
+
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">WHATSAPP</h5>
+                    <p class="text-secondary fw-italic fs-6">Technologies: HTML, CSS, JS</p>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div class="row">
+       <div class="col-12 col-md-6 mb-4" data-aos="fade-right" data-aos-duration="2500">
+
+            <div class="card m-5 p-4 shadow-lg allprogramsproject"
+                style="">
+
+                <!-- Image with overlay -->
+                <div class="image-container">
+                    <img src="images/allprogram.png" alt="Image" class="img-fluid">
+                    <div class="overlay text-center">
+                        <a href="https://madhoorgoyal.github.io/Allprograms/frameset/" target="_blank"
+                            style="margin-top:100px" class="btn"><i
+                                class="fa-solid fa-arrow-up-right-from-square websiteicon"
+                                style=""></i></a>
+                        <a href="https://github.com/Madhoorgoyal/Allprograms" target="_blank" style="margin-top:100px"
+                            class="btn bt-lg"><i class="fa-brands fa-square-github githubicon"
+                                style=""></i></a>
+
+                    </div>
+                </div>
+
+                <!-- Card Body -->
+                <div class="card-body">
+
+                    <h5 class="card-title fw-bold">ALL PROGRAMS YOU NEED</h5>
+
+                    <p class="text-secondary fw-italic fs-6"> Technologies : html,css,js </p>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-12 col-md-6 mb-4" data-aos="fade-left" data-aos-duration="2500">
+
+
+            <div class="card mx-auto m-5 p-4 shadow-lg Physiotherapyproject"
+                style="">
+
+                <!-- Image with overlay -->
+                <div class="image-container">
+                    <img src="images/Physiotherapy.png" alt="Image" class="img-fluid" style="object-fit:contain; ">
+                    <div class="overlay text-center">
+                        <a href="https://madhoorgoyal.github.io/physiotherapy/" target="_blank" style="margin-top:100px"
+                            class="btn"><i class="fa-solid fa-arrow-up-right-from-square websiteicon"
+                                style=""></i></a>
+                        <a href="https://github.com/Madhoorgoyal/physiotherapy" target="_blank" style="margin-top:100px"
+                            class="btn bt-lg"><i class="fa-brands fa-square-github githubicon"
+                                style=""></i></a>
+
+                    </div>
+                </div>
+
+
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Physiotherapy Website </h5>
+                    <p class="text-secondary fw-italic fs-6">Technologies: HTML, CSS, JS</p>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+<a name="Education"></a>
+<br><br><br><br>
+
+ <h2 class="text-center mb-5 fw-bold " data-aos="fade-down" data-aos-duration="1500">Education</h2>
+
+<section id="education" class="py-5" style="background-color: #f1f6f6;">
+     <div class="container">
+   
+
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card shadow-sm border-0 rounded-4 p-4 bg-white" data-aos="fade-down" data-aos-duration="2500">
+          <h4 class="fw-bold text-dark">Higher Education</h4>
+          <p class="mb-1 text-muted">Govt. Model High School,Chandigarh</p>
+          <p class="text-muted">2019 – 2020</p>
+          <p class="text-muted">With 60.8%</p>
+          <p class="mt-3">
+            Completed Class 10 with a solid academic foundation and consistent performance across core subjects.
+			Built a strong base in logical reasoning and problem-solving during Higher education.
+          </p>
+        </div>
+      </div>
+    </div>
+<div class="text-center m-4 ">
+  <i class="fa-solid fa-circle-down arrowicon"></i>
+</div>
+
+
+  </div>
+  <div class="container">
+   
+
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card shadow-sm border-0 rounded-4 p-4 bg-white" data-aos="fade-down" data-aos-duration="2500">
+          <h4 class="fw-bold text-dark">Senior Secondary</h4>
+          <p class="mb-1 text-muted">Govt. Senior Secondary Scholl,Chandigarh</p>
+          <p class="text-muted">2020 – 2022</p>
+          <p class="text-muted">With 80.2%</p>
+          <p class="mt-3">
+            Completed Class 12 with a focus on Computer Science and Mathematics, developing analytical and technical skills.
+			Gained fundamental knowledge in programming and logical thinking during senior secondary education.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  
+<div class="text-center m-4">
+  <i class="fa-solid fa-circle-down arrowicon"></i>
+</div>
+
+  </div>
+  <div class="container">
+   
+
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card shadow-sm border-0 rounded-4 p-4 bg-white" data-aos="fade-down" data-aos-duration="2500">
+          <h4 class="fw-bold text-dark">Bachelor of Computer Applications (BCA)</h4>
+          <p class="mb-1 text-muted">Panjab university,Chandigarh</p>
+          <p class="text-muted">2022 – 2025</p>
+          <p class="text-muted">With 79.9%</p>
+          <p class="mt-3">
+            Graduated with strong fundamentals in programming, data structures, and web development. 
+            Hands-on experience building full-stack projects using HTML, CSS, JavaScript, PHP, and MySQL.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+</section>
+
+
+
+
+<br><br><br>
+
+<a name="Contact"></a>
+<div class="container mt-5 p-4">
+    <p class="h2 text-center m-5">Contat Me </p>
+	
+	<div class="row">
+			<div class="col-sm-6">
+				<div data-aos="flip-up" data-aos-duration="2500"><img src="images/contact.png" class="contactimg w-75 rounded shadow-lg img-fluid" style="">
+		
+			</div>	</div>		
+			 
+			<div class="col-sm-6" data-aos="flip-down" data-aos-duration="2500">
+				<p class="h3 text-secondary"> Get in touch</p>
+				<p>My inbox is always open! Let's chat! 🎉</p>
+				<form name="form1" action="https://formsubmit.co/madhoorgoyal@gmail.com" method="POST" enctype="text/plain" >
+				
+				<input type="text" name="name" id="name" placeholder="Full Name *" class="form-control form-control bg-light  mb-3" required>
+				<input type="email" name="email" id="name" placeholder="E-Mail *" class="form-control form-control bg-light mb-3" required>
+				<textarea rows="5" cols="50" placeholder="Message *"class="form-control form-control bg-light mb-4" required></textarea>
+				<div class=" text-end"><input type="submit" value=" 👋 HELLO" class="btn btn-outline-dark btn-lg px-4"></div>
+				
+				
+				
+				
+				</form>
+			
+			</div>
+	
+	
+	</div>
+	
+	
+	
+	
+	</div>
+
+
+
+
+
+<!-- JS library typed for type writer-->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    new Typed("#typed-text", {
+        strings: ["Web Developer", "Frontend Designer", "Tech Enthusiast"],
+        typeSpeed: 60,
+        backSpeed: 30,
+        loop: true
+    });
+</script>
+
+
+<footer class="text-center py-4 px-2 mb-0 mt-5" style="background-color: #f8f9fa;" >
+  <p class="h3 m-0 text-dark" data-aos="zoom-in" data-aos-duration="2500">
+    Made With <span class="heart">❤️</span> By <strong>Madhur Goyal</strong>
+  </p>
+  
+  
+ 
+<div class="icons icons2 d-flex justify-content-center"> 
+
+        <ul class="nav flex-row" style="gap:20px; ">
+            <li class="nav-item mt-4"><a class="nav-link"
+                    style="background-color:black;color:white; border:1px solid black; border-radius:45px; font-size:20px;"
+                    href=""><i class="fab fa-linkedin"></i></a></li>
+            <li class="nav-item mt-4"><a class="nav-link"
+                    style="background-color:black;color:white; border:1px solid black; border-radius:45px; font-size:20px;"
+                    href="https://github.com/Madhoorgoyal/" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li class="nav-item mt-4"><a class="nav-link"
+                    style="background-color:black;color:white; border:1px solid black; border-radius:45px; font-size:20px;"
+                    href="https://twitter.com/MadhurG54915884" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li class="nav-item mt-4"><a class="nav-link"
+                    style="background-color:black;color:white; border:1px solid black; border-radius:45px; font-size:20px;"
+                    href="https://www.instagram.com/madhurgoyal2403" target="_blank"><i
+                        class="fab fa-instagram"></i></a></li>
+        </ul>
+   </div>
+
+  
+  
+</footer>
+
+
+
+    <!-- for page animation -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script>
+        AOS.init(); 
+    </script>
+
+
+</body>
+
+</html>
